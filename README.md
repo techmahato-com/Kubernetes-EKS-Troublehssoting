@@ -45,7 +45,7 @@ EKS Command cheatsheet and troubleshooting
 
 ## Solution: he error message suggests that there is an issue with resolving the AWS region for the current session. To resolve this, you need to ensure that the AWS region is properly configured in your environment.
 
-	eksctl get nodegroups --cluster=RCB-FAN-APP-Prod --region ap-south-1
+	eksctl get nodegroups --cluster=<Cluster Name> --region ap-south-1
 
 # Describe Nodegroup:
 	eksctl get nodegroup --cluster=<cluster-name> --name=<nodegroup-name>
