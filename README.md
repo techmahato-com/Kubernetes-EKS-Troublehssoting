@@ -2,7 +2,7 @@
 EKS Command cheatsheet and troubleshooting
 # 
 	kubectl config get-contexts
-	kubectl config use-context arn:aws:eks:ap-south-1:576415024131:cluster/RCB-FAN-APP-Prod
+	kubectl config use-context arn:aws:eks:ap-south-1:5123456789:cluster/TM-Prod
 
 # List Clusters:
 	aws eks list-clusters
